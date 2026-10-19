@@ -1,0 +1,176 @@
+{
+  "extName": {
+    "message": "Hızlı Çevirmen",
+    "description": "Extension name (max 75 chars)"
+  },
+  "extDescription": {
+    "message": "Gezinirken seçtiğiniz metni yerinde çevirin — uzun seçimler dahil. Google Çeviri altyapısını kullanır.",
+    "description": "Store/manifest description (max 132 chars)"
+  },
+  "actionTitle": {
+    "message": "Hızlı Çevirmen\n\nÇevirmek için tıklayın!\nSeçenekler için sağ tıklayın."
+  },
+  "translate": {
+    "message": "Çevir"
+  },
+  "menuTranslateSelection": {
+    "message": "Seçimi çevir"
+  },
+  "menuTranslatePage": {
+    "message": "Bu sayfayı çevir"
+  },
+  "translatePageLink": {
+    "message": "Bu sayfayı çevir"
+  },
+  "openInTranslate": {
+    "message": "GOOGLE ÇEVİRİ'DE AÇ"
+  },
+  "turnOffPopup": {
+    "message": "POP-UP'I KAPAT"
+  },
+  "popupTurnedOff": {
+    "message": "Pop-up kapatıldı. Seçeneklerden yeniden açabilirsiniz."
+  },
+  "options": {
+    "message": "Uzantı Seçenekleri"
+  },
+  "optionsPageTitle": {
+    "message": "Hızlı Çevirmen Seçenekleri"
+  },
+  "optionsHeading": {
+    "message": "Uzantı Seçenekleri"
+  },
+  "primaryLang": {
+    "message": "Ana dilim:"
+  },
+  "popupSection": {
+    "message": "Pop-up çeviriler:"
+  },
+  "whenSelect": {
+    "message": "Bir kelime veya ifade seçtiğimde:"
+  },
+  "modeIcon": {
+    "message": "Pop-up'ı açmak için tıklayabileceğim bir simge göster."
+  },
+  "modeImmediate": {
+    "message": "Pop-up'ı hemen göster."
+  },
+  "modeNone": {
+    "message": "Simge veya pop-up gösterme."
+  },
+  "modePopupTip": {
+    "message": "Seçtiğiniz metin, çevrilmek üzere Google'ın çeviri sunucularına gönderilir."
+  },
+  "modeNoneTip": {
+    "message": "Seçili metni yine de araç çubuğundaki simgeyle veya sağ tık menüsüyle çevirebilirsiniz."
+  },
+  "alwaysShowIcon": {
+    "message": "Sayfa zaten benim dilimde olsa bile simgeyi göster."
+  },
+  "uiLangLabel": {
+    "message": "Arayüz dili:"
+  },
+  "uiLangAuto": {
+    "message": "Tarayıcı diliyle aynı"
+  },
+  "save": {
+    "message": "Kaydet"
+  },
+  "reset": {
+    "message": "Sıfırla"
+  },
+  "saved": {
+    "message": "Seçenekler kaydedildi."
+  },
+  "resetDone": {
+    "message": "Seçenekler varsayılana döndürüldü."
+  },
+  "homepage": {
+    "message": "Google Çeviri ana sayfası"
+  },
+  "privacy": {
+    "message": "Gizlilik"
+  },
+  "translating": {
+    "message": "Çevriliyor…"
+  },
+  "errorFetch": {
+    "message": "Çeviri alınamadı. Ağ bağlantınızı kontrol edin."
+  },
+  "errorRateLimit": {
+    "message": "Google istekleri geçici olarak sınırlıyor. Lütfen biraz sonra tekrar deneyin."
+  },
+  "errorReload": {
+    "message": "Uzantı güncellendi. Lütfen bu sayfayı yenileyin."
+  },
+  "errorEmpty": {
+    "message": "Çevirmek için bir metin yazın veya yapıştırın."
+  },
+  "listen": {
+    "message": "Dinle"
+  },
+  "stop": {
+    "message": "Durdur"
+  },
+  "copy": {
+    "message": "Kopyala"
+  },
+  "copied": {
+    "message": "Kopyalandı"
+  },
+  "close": {
+    "message": "Kapat"
+  },
+  "inputPlaceholder": {
+    "message": "Metni buraya yazın veya yapıştırın…"
+  },
+  "targetLabel": {
+    "message": "Hedef dil:"
+  },
+  "pageNotTranslatable": {
+    "message": "Bu sayfa çevrilemiyor."
+  },
+  "openBubble": {
+    "message": "Seçimi çevir"
+  },
+  "fromLang": {
+    "message": "$LANG$ dilinden çevrildi",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "progress": {
+    "message": "Çevriliyor… $DONE$/$TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "charCount": {
+    "message": "$COUNT$ karakter",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1200"
+      }
+    }
+  },
+  "analyticsSection": {
+    "message": "Gizlilik"
+  },
+  "analyticsLabel": {
+    "message": "Anonim kullanım istatistiklerini gönder"
+  },
+  "analyticsTip": {
+    "message": "Uzantının geliştirilmesine yardımcı olur. Google Analytics aracılığıyla yalnızca anonim sayımlar gönderilir (ör. hangi özelliklerin kullanıldığı, diller, metin uzunluğu aralığı); çevirdiğiniz metin, çeviriler veya ziyaret ettiğiniz sayfalar asla gönderilmez."
+  }
+}

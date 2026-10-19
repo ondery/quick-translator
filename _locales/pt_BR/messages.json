@@ -1,0 +1,176 @@
+{
+  "extName": {
+    "message": "Tradutor rápido",
+    "description": "Extension name (max 75 chars)"
+  },
+  "extDescription": {
+    "message": "Traduza o texto selecionado na própria página, inclusive trechos longos. Usa o Google Tradutor.",
+    "description": "Store/manifest description (max 132 chars)"
+  },
+  "actionTitle": {
+    "message": "Tradutor rápido\n\nClique para traduzir!\nClique com o botão direito para ver as opções."
+  },
+  "translate": {
+    "message": "Traduzir"
+  },
+  "menuTranslateSelection": {
+    "message": "Traduzir seleção"
+  },
+  "menuTranslatePage": {
+    "message": "Traduzir esta página"
+  },
+  "translatePageLink": {
+    "message": "Traduzir esta página"
+  },
+  "openInTranslate": {
+    "message": "ABRIR NO GOOGLE TRADUTOR"
+  },
+  "turnOffPopup": {
+    "message": "DESATIVAR POP-UP"
+  },
+  "popupTurnedOff": {
+    "message": "Pop-up desativado. Você pode reativá-lo nas opções."
+  },
+  "options": {
+    "message": "Opções da extensão"
+  },
+  "optionsPageTitle": {
+    "message": "Opções do Tradutor rápido"
+  },
+  "optionsHeading": {
+    "message": "Opções da extensão"
+  },
+  "primaryLang": {
+    "message": "Meu idioma principal:"
+  },
+  "popupSection": {
+    "message": "Traduções em pop-up:"
+  },
+  "whenSelect": {
+    "message": "Quando eu seleciono uma palavra ou frase:"
+  },
+  "modeIcon": {
+    "message": "Mostrar um ícone em que posso clicar para abrir o pop-up."
+  },
+  "modeImmediate": {
+    "message": "Mostrar o pop-up imediatamente."
+  },
+  "modeNone": {
+    "message": "Não mostrar ícone nem pop-up."
+  },
+  "modePopupTip": {
+    "message": "O texto selecionado é enviado aos servidores de tradução do Google para ser traduzido."
+  },
+  "modeNoneTip": {
+    "message": "Você ainda pode traduzir o texto selecionado pelo ícone da barra de ferramentas ou pelo menu do botão direito."
+  },
+  "alwaysShowIcon": {
+    "message": "Mostrar o ícone mesmo se a página já estiver no meu idioma."
+  },
+  "uiLangLabel": {
+    "message": "Idioma da interface:"
+  },
+  "uiLangAuto": {
+    "message": "Igual ao idioma do navegador"
+  },
+  "save": {
+    "message": "Salvar"
+  },
+  "reset": {
+    "message": "Redefinir"
+  },
+  "saved": {
+    "message": "Opções salvas."
+  },
+  "resetDone": {
+    "message": "Opções redefinidas para o padrão."
+  },
+  "homepage": {
+    "message": "Página inicial do Google Tradutor"
+  },
+  "privacy": {
+    "message": "Privacidade"
+  },
+  "translating": {
+    "message": "Traduzindo…"
+  },
+  "errorFetch": {
+    "message": "Não foi possível obter a tradução. Verifique sua conexão de rede."
+  },
+  "errorRateLimit": {
+    "message": "O Google está limitando as solicitações temporariamente. Tente novamente em instantes."
+  },
+  "errorReload": {
+    "message": "A extensão foi atualizada. Recarregue esta página."
+  },
+  "errorEmpty": {
+    "message": "Digite ou cole um texto para traduzir."
+  },
+  "listen": {
+    "message": "Ouvir"
+  },
+  "stop": {
+    "message": "Parar"
+  },
+  "copy": {
+    "message": "Copiar"
+  },
+  "copied": {
+    "message": "Copiado"
+  },
+  "close": {
+    "message": "Fechar"
+  },
+  "inputPlaceholder": {
+    "message": "Digite ou cole o texto aqui…"
+  },
+  "targetLabel": {
+    "message": "Traduzir para:"
+  },
+  "pageNotTranslatable": {
+    "message": "Esta página não pode ser traduzida."
+  },
+  "openBubble": {
+    "message": "Traduzir seleção"
+  },
+  "fromLang": {
+    "message": "Traduzido de: $LANG$",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "progress": {
+    "message": "Traduzindo… $DONE$/$TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "charCount": {
+    "message": "$COUNT$ caracteres",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1200"
+      }
+    }
+  },
+  "analyticsSection": {
+    "message": "Privacidade"
+  },
+  "analyticsLabel": {
+    "message": "Enviar estatísticas de uso anônimas"
+  },
+  "analyticsTip": {
+    "message": "Ajuda a melhorar a extensão. Apenas contagens anônimas são enviadas pelo Google Analytics (por exemplo, recursos usados, idiomas, faixa de tamanho do texto) — nunca o texto que você traduz, as traduções ou as páginas que você visita."
+  }
+}

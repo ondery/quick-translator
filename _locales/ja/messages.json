@@ -1,0 +1,176 @@
+{
+  "extName": {
+    "message": "クイック翻訳",
+    "description": "Extension name (max 75 chars)"
+  },
+  "extDescription": {
+    "message": "選択したテキストをページ上でそのまま翻訳。長い文章にも対応。Google 翻訳を使用します。",
+    "description": "Store/manifest description (max 132 chars)"
+  },
+  "actionTitle": {
+    "message": "クイック翻訳\n\nクリックして翻訳\n右クリックでオプション"
+  },
+  "translate": {
+    "message": "翻訳"
+  },
+  "menuTranslateSelection": {
+    "message": "選択したテキストを翻訳"
+  },
+  "menuTranslatePage": {
+    "message": "このページを翻訳"
+  },
+  "translatePageLink": {
+    "message": "このページを翻訳"
+  },
+  "openInTranslate": {
+    "message": "GOOGLE 翻訳で開く"
+  },
+  "turnOffPopup": {
+    "message": "ポップアップをオフにする"
+  },
+  "popupTurnedOff": {
+    "message": "ポップアップをオフにしました。オプションで再度オンにできます。"
+  },
+  "options": {
+    "message": "拡張機能のオプション"
+  },
+  "optionsPageTitle": {
+    "message": "クイック翻訳のオプション"
+  },
+  "optionsHeading": {
+    "message": "拡張機能のオプション"
+  },
+  "primaryLang": {
+    "message": "メインの言語:"
+  },
+  "popupSection": {
+    "message": "ポップアップ翻訳:"
+  },
+  "whenSelect": {
+    "message": "単語やフレーズを選択したとき:"
+  },
+  "modeIcon": {
+    "message": "クリックでポップアップを開くアイコンを表示する"
+  },
+  "modeImmediate": {
+    "message": "すぐにポップアップを表示する"
+  },
+  "modeNone": {
+    "message": "アイコンもポップアップも表示しない"
+  },
+  "modePopupTip": {
+    "message": "選択したテキストは翻訳のために Google の翻訳サーバーに送信されます。"
+  },
+  "modeNoneTip": {
+    "message": "ツールバーのアイコンや右クリック メニューから、選択したテキストを翻訳することもできます。"
+  },
+  "alwaysShowIcon": {
+    "message": "ページがすでに自分の言語でもアイコンを表示する"
+  },
+  "uiLangLabel": {
+    "message": "表示言語:"
+  },
+  "uiLangAuto": {
+    "message": "ブラウザの言語に合わせる"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "reset": {
+    "message": "リセット"
+  },
+  "saved": {
+    "message": "オプションを保存しました。"
+  },
+  "resetDone": {
+    "message": "オプションを初期設定に戻しました。"
+  },
+  "homepage": {
+    "message": "Google 翻訳のホームページ"
+  },
+  "privacy": {
+    "message": "プライバシー"
+  },
+  "translating": {
+    "message": "翻訳中…"
+  },
+  "errorFetch": {
+    "message": "翻訳を取得できませんでした。ネットワーク接続を確認してください。"
+  },
+  "errorRateLimit": {
+    "message": "Google が一時的にリクエストを制限しています。しばらくしてからもう一度お試しください。"
+  },
+  "errorReload": {
+    "message": "拡張機能が更新されました。このページを再読み込みしてください。"
+  },
+  "errorEmpty": {
+    "message": "翻訳するテキストを入力または貼り付けてください。"
+  },
+  "listen": {
+    "message": "読み上げ"
+  },
+  "stop": {
+    "message": "停止"
+  },
+  "copy": {
+    "message": "コピー"
+  },
+  "copied": {
+    "message": "コピーしました"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "inputPlaceholder": {
+    "message": "ここにテキストを入力または貼り付け…"
+  },
+  "targetLabel": {
+    "message": "翻訳先:"
+  },
+  "pageNotTranslatable": {
+    "message": "このページは翻訳できません。"
+  },
+  "openBubble": {
+    "message": "選択したテキストを翻訳"
+  },
+  "fromLang": {
+    "message": "翻訳元: $LANG$",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "progress": {
+    "message": "翻訳中… $DONE$/$TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "charCount": {
+    "message": "$COUNT$ 文字",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1200"
+      }
+    }
+  },
+  "analyticsSection": {
+    "message": "プライバシー"
+  },
+  "analyticsLabel": {
+    "message": "匿名の利用統計を送信する"
+  },
+  "analyticsTip": {
+    "message": "拡張機能の改善に役立ちます。Google アナリティクス経由で送信されるのは匿名の集計情報（使用された機能、言語、テキストの長さの範囲など）のみで、翻訳するテキスト、翻訳結果、閲覧中のページが送信されることはありません。"
+  }
+}

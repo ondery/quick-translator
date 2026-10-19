@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <title>Quick Translator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="top">
+    <img src="icons/icon32.png" width="20" height="20" alt="">
+    <span class="title" data-i18n="extName"></span>
+    <span class="grow"></span>
+    <label class="target">
+      <span data-i18n="targetLabel"></span>
+      <select id="target"></select>
+    </label>
+  </header>
+
+  <main>
+    <textarea id="input" rows="4" data-i18n-placeholder="inputPlaceholder" spellcheck="false"></textarea>
+    <div class="row">
+      <span id="count" class="muted small"></span>
+      <span class="grow"></span>
+      <button id="translateBtn" class="primary" type="button" data-i18n="translate"></button>
+    </div>
+
+    <section id="output" class="output" hidden>
+      <div class="out-head">
+        <span id="detected" class="muted small"></span>
+        <span class="grow"></span>
+        <button id="listenBtn" class="icon-btn" type="button" data-i18n-title="listen"></button>
+        <button id="copyBtn" class="icon-btn" type="button" data-i18n-title="copy"></button>
+      </div>
+      <div id="status" class="status" hidden></div>
+      <div id="result" class="result" dir="auto"></div>
+      <div class="out-foot">
+        <a id="openTranslate" href="#" class="link" data-i18n="openInTranslate"></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bottom">
+    <a id="translatePage" href="#" class="link" data-i18n="translatePageLink"></a>
+    <a id="openOptions" href="#" class="link muted" data-i18n="options"></a>
+  </footer>
+
+  <script src="lib/languages.js"></script>
+  <script src="lib/common.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

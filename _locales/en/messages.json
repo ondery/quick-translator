@@ -1,0 +1,176 @@
+{
+  "extName": {
+    "message": "Quick Translator",
+    "description": "Extension name (max 75 chars)"
+  },
+  "extDescription": {
+    "message": "Translate selected text in place as you browse — long selections too. Uses Google Translate.",
+    "description": "Store/manifest description (max 132 chars)"
+  },
+  "actionTitle": {
+    "message": "Quick Translator\n\nClick to translate!\nRight-click for options."
+  },
+  "translate": {
+    "message": "Translate"
+  },
+  "menuTranslateSelection": {
+    "message": "Translate selection"
+  },
+  "menuTranslatePage": {
+    "message": "Translate this page"
+  },
+  "translatePageLink": {
+    "message": "Translate this page"
+  },
+  "openInTranslate": {
+    "message": "OPEN IN GOOGLE TRANSLATE"
+  },
+  "turnOffPopup": {
+    "message": "TURN OFF POP-UP"
+  },
+  "popupTurnedOff": {
+    "message": "Pop-up turned off. You can turn it back on in the options."
+  },
+  "options": {
+    "message": "Extension Options"
+  },
+  "optionsPageTitle": {
+    "message": "Quick Translator Options"
+  },
+  "optionsHeading": {
+    "message": "Extension Options"
+  },
+  "primaryLang": {
+    "message": "My primary language:"
+  },
+  "popupSection": {
+    "message": "Pop-up translations:"
+  },
+  "whenSelect": {
+    "message": "When I select a word or phrase:"
+  },
+  "modeIcon": {
+    "message": "Show an icon I can click to open the pop-up."
+  },
+  "modeImmediate": {
+    "message": "Show the pop-up immediately."
+  },
+  "modeNone": {
+    "message": "Don't show an icon or pop-up."
+  },
+  "modePopupTip": {
+    "message": "Selected text is sent to Google's translation servers to be translated."
+  },
+  "modeNoneTip": {
+    "message": "You can still translate selected text with the toolbar icon or the right-click menu."
+  },
+  "alwaysShowIcon": {
+    "message": "Show the icon even if the page is already in my language."
+  },
+  "uiLangLabel": {
+    "message": "Interface language:"
+  },
+  "uiLangAuto": {
+    "message": "Same as browser language"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "reset": {
+    "message": "Reset"
+  },
+  "saved": {
+    "message": "Options saved."
+  },
+  "resetDone": {
+    "message": "Options reset to defaults."
+  },
+  "homepage": {
+    "message": "Google Translate homepage"
+  },
+  "privacy": {
+    "message": "Privacy"
+  },
+  "translating": {
+    "message": "Translating…"
+  },
+  "errorFetch": {
+    "message": "Couldn't get the translation. Check your network connection."
+  },
+  "errorRateLimit": {
+    "message": "Google is temporarily limiting requests. Please try again in a moment."
+  },
+  "errorReload": {
+    "message": "The extension was updated. Please reload this page."
+  },
+  "errorEmpty": {
+    "message": "Type or paste some text to translate."
+  },
+  "listen": {
+    "message": "Listen"
+  },
+  "stop": {
+    "message": "Stop"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "copied": {
+    "message": "Copied"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "inputPlaceholder": {
+    "message": "Type or paste text here…"
+  },
+  "targetLabel": {
+    "message": "Translate to:"
+  },
+  "pageNotTranslatable": {
+    "message": "This page can't be translated."
+  },
+  "openBubble": {
+    "message": "Translate selection"
+  },
+  "fromLang": {
+    "message": "Translated from $LANG$",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "progress": {
+    "message": "Translating… $DONE$/$TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "charCount": {
+    "message": "$COUNT$ characters",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1200"
+      }
+    }
+  },
+  "analyticsSection": {
+    "message": "Privacy"
+  },
+  "analyticsLabel": {
+    "message": "Send anonymous usage statistics"
+  },
+  "analyticsTip": {
+    "message": "Helps improve the extension. Only anonymous counts are sent via Google Analytics (e.g. which features are used, languages, text length range) — never the text you translate, the translations or the pages you visit."
+  }
+}

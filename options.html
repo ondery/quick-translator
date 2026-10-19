@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <title>Options</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <img src="icons/icon48.png" width="40" height="40" alt="">
+      <div>
+        <h1 data-i18n="optionsPageTitle"></h1>
+        <p class="muted" data-i18n="extDescription"></p>
+      </div>
+    </header>
+
+    <form id="form">
+      <section>
+        <label class="field">
+          <span class="label" data-i18n="primaryLang"></span>
+          <select id="targetLang"></select>
+        </label>
+      </section>
+
+      <section>
+        <h2 data-i18n="popupSection"></h2>
+        <p class="sub" data-i18n="whenSelect"></p>
+        <label class="radio">
+          <input type="radio" name="popupMode" value="icon">
+          <span data-i18n="modeIcon"></span>
+        </label>
+        <label class="radio">
+          <input type="radio" name="popupMode" value="immediate">
+          <span data-i18n="modeImmediate"></span>
+        </label>
+        <p class="tip" id="tipPopup" data-i18n="modePopupTip"></p>
+        <label class="radio">
+          <input type="radio" name="popupMode" value="none">
+          <span data-i18n="modeNone"></span>
+        </label>
+        <p class="tip" id="tipNone" data-i18n="modeNoneTip"></p>
+        <label class="check">
+          <input type="checkbox" id="alwaysShowIcon">
+          <span data-i18n="alwaysShowIcon"></span>
+        </label>
+      </section>
+
+      <section>
+        <label class="field">
+          <span class="label" data-i18n="uiLangLabel"></span>
+          <select id="uiLang">
+            <option value="auto" data-i18n="uiLangAuto"></option>
+            <!-- the 11 interface languages are added by options.js (native names) -->
+          </select>
+        </label>
+      </section>
+
+      <section>
+        <h2 data-i18n="analyticsSection"></h2>
+        <label class="check">
+          <input type="checkbox" id="analytics">
+          <span data-i18n="analyticsLabel"></span>
+        </label>
+        <p class="tip" id="tipAnalytics" data-i18n="analyticsTip"></p>
+      </section>
+
+      <div class="actions">
+        <button type="submit" class="primary" data-i18n="save"></button>
+        <button type="button" id="reset" class="secondary" data-i18n="reset"></button>
+        <span id="status" class="status" role="status"></span>
+      </div>
+    </form>
+
+    <footer>
+      <a href="https://translate.google.com/" target="_blank" rel="noopener" data-i18n="homepage"></a>
+      <span class="dot">·</span>
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" data-i18n="privacy"></a>
+    </footer>
+  </div>
+
+  <script src="lib/languages.js"></script>
+  <script src="lib/common.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

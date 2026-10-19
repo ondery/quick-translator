@@ -1,0 +1,176 @@
+{
+  "extName": {
+    "message": "Быстрый переводчик",
+    "description": "Extension name (max 75 chars)"
+  },
+  "extDescription": {
+    "message": "Переводите выделенный текст прямо на странице — даже длинные фрагменты. Использует Google Переводчик.",
+    "description": "Store/manifest description (max 132 chars)"
+  },
+  "actionTitle": {
+    "message": "Быстрый переводчик\n\nНажмите, чтобы перевести!\nПравый клик — настройки."
+  },
+  "translate": {
+    "message": "Перевести"
+  },
+  "menuTranslateSelection": {
+    "message": "Перевести выделенное"
+  },
+  "menuTranslatePage": {
+    "message": "Перевести эту страницу"
+  },
+  "translatePageLink": {
+    "message": "Перевести эту страницу"
+  },
+  "openInTranslate": {
+    "message": "ОТКРЫТЬ В GOOGLE ПЕРЕВОДЧИКЕ"
+  },
+  "turnOffPopup": {
+    "message": "ОТКЛЮЧИТЬ ОКНО"
+  },
+  "popupTurnedOff": {
+    "message": "Всплывающее окно отключено. Его можно снова включить в настройках."
+  },
+  "options": {
+    "message": "Настройки расширения"
+  },
+  "optionsPageTitle": {
+    "message": "Настройки «Быстрого переводчика»"
+  },
+  "optionsHeading": {
+    "message": "Настройки расширения"
+  },
+  "primaryLang": {
+    "message": "Мой основной язык:"
+  },
+  "popupSection": {
+    "message": "Перевод во всплывающем окне:"
+  },
+  "whenSelect": {
+    "message": "Когда я выделяю слово или фразу:"
+  },
+  "modeIcon": {
+    "message": "Показывать значок, по которому можно открыть окно перевода."
+  },
+  "modeImmediate": {
+    "message": "Сразу показывать окно перевода."
+  },
+  "modeNone": {
+    "message": "Не показывать ни значок, ни окно."
+  },
+  "modePopupTip": {
+    "message": "Выделенный текст отправляется на серверы перевода Google."
+  },
+  "modeNoneTip": {
+    "message": "Выделенный текст по-прежнему можно перевести с помощью значка на панели инструментов или контекстного меню."
+  },
+  "alwaysShowIcon": {
+    "message": "Показывать значок, даже если страница уже на моём языке."
+  },
+  "uiLangLabel": {
+    "message": "Язык интерфейса:"
+  },
+  "uiLangAuto": {
+    "message": "Как в браузере"
+  },
+  "save": {
+    "message": "Сохранить"
+  },
+  "reset": {
+    "message": "Сбросить"
+  },
+  "saved": {
+    "message": "Настройки сохранены."
+  },
+  "resetDone": {
+    "message": "Восстановлены настройки по умолчанию."
+  },
+  "homepage": {
+    "message": "Главная страница Google Переводчика"
+  },
+  "privacy": {
+    "message": "Конфиденциальность"
+  },
+  "translating": {
+    "message": "Перевод…"
+  },
+  "errorFetch": {
+    "message": "Не удалось получить перевод. Проверьте подключение к сети."
+  },
+  "errorRateLimit": {
+    "message": "Google временно ограничивает запросы. Повторите попытку чуть позже."
+  },
+  "errorReload": {
+    "message": "Расширение обновлено. Перезагрузите эту страницу."
+  },
+  "errorEmpty": {
+    "message": "Введите или вставьте текст для перевода."
+  },
+  "listen": {
+    "message": "Прослушать"
+  },
+  "stop": {
+    "message": "Остановить"
+  },
+  "copy": {
+    "message": "Копировать"
+  },
+  "copied": {
+    "message": "Скопировано"
+  },
+  "close": {
+    "message": "Закрыть"
+  },
+  "inputPlaceholder": {
+    "message": "Введите или вставьте текст…"
+  },
+  "targetLabel": {
+    "message": "Перевести на:"
+  },
+  "pageNotTranslatable": {
+    "message": "Эту страницу нельзя перевести."
+  },
+  "openBubble": {
+    "message": "Перевести выделенное"
+  },
+  "fromLang": {
+    "message": "Переведено с языка: $LANG$",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "progress": {
+    "message": "Перевод… $DONE$/$TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "charCount": {
+    "message": "Символов: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1200"
+      }
+    }
+  },
+  "analyticsSection": {
+    "message": "Конфиденциальность"
+  },
+  "analyticsLabel": {
+    "message": "Отправлять анонимную статистику использования"
+  },
+  "analyticsTip": {
+    "message": "Помогает улучшать расширение. Через Google Analytics отправляются только анонимные счётчики (например, используемые функции, языки, диапазон длины текста) — но никогда не переводимый текст, переводы или посещаемые страницы."
+  }
+}

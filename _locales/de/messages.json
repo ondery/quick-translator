@@ -1,0 +1,176 @@
+{
+  "extName": {
+    "message": "Schnellübersetzer",
+    "description": "Extension name (max 75 chars)"
+  },
+  "extDescription": {
+    "message": "Markierten Text direkt auf der Seite übersetzen – auch lange Abschnitte. Nutzt Google Übersetzer.",
+    "description": "Store/manifest description (max 132 chars)"
+  },
+  "actionTitle": {
+    "message": "Schnellübersetzer\n\nZum Übersetzen klicken!\nRechtsklick für Optionen."
+  },
+  "translate": {
+    "message": "Übersetzen"
+  },
+  "menuTranslateSelection": {
+    "message": "Auswahl übersetzen"
+  },
+  "menuTranslatePage": {
+    "message": "Diese Seite übersetzen"
+  },
+  "translatePageLink": {
+    "message": "Diese Seite übersetzen"
+  },
+  "openInTranslate": {
+    "message": "IN GOOGLE ÜBERSETZER ÖFFNEN"
+  },
+  "turnOffPopup": {
+    "message": "POP-UP DEAKTIVIEREN"
+  },
+  "popupTurnedOff": {
+    "message": "Pop-up deaktiviert. Sie können es in den Optionen wieder aktivieren."
+  },
+  "options": {
+    "message": "Erweiterungsoptionen"
+  },
+  "optionsPageTitle": {
+    "message": "Schnellübersetzer – Optionen"
+  },
+  "optionsHeading": {
+    "message": "Erweiterungsoptionen"
+  },
+  "primaryLang": {
+    "message": "Meine Hauptsprache:"
+  },
+  "popupSection": {
+    "message": "Pop-up-Übersetzungen:"
+  },
+  "whenSelect": {
+    "message": "Wenn ich ein Wort oder einen Satz markiere:"
+  },
+  "modeIcon": {
+    "message": "Ein Symbol anzeigen, über das ich das Pop-up öffnen kann."
+  },
+  "modeImmediate": {
+    "message": "Das Pop-up sofort anzeigen."
+  },
+  "modeNone": {
+    "message": "Weder Symbol noch Pop-up anzeigen."
+  },
+  "modePopupTip": {
+    "message": "Markierter Text wird zur Übersetzung an die Übersetzungsserver von Google gesendet."
+  },
+  "modeNoneTip": {
+    "message": "Sie können markierten Text weiterhin über das Symbol in der Symbolleiste oder das Kontextmenü übersetzen."
+  },
+  "alwaysShowIcon": {
+    "message": "Symbol auch anzeigen, wenn die Seite bereits in meiner Sprache ist."
+  },
+  "uiLangLabel": {
+    "message": "Sprache der Benutzeroberfläche:"
+  },
+  "uiLangAuto": {
+    "message": "Wie Browsersprache"
+  },
+  "save": {
+    "message": "Speichern"
+  },
+  "reset": {
+    "message": "Zurücksetzen"
+  },
+  "saved": {
+    "message": "Optionen gespeichert."
+  },
+  "resetDone": {
+    "message": "Optionen auf Standardwerte zurückgesetzt."
+  },
+  "homepage": {
+    "message": "Google Übersetzer-Startseite"
+  },
+  "privacy": {
+    "message": "Datenschutz"
+  },
+  "translating": {
+    "message": "Wird übersetzt…"
+  },
+  "errorFetch": {
+    "message": "Übersetzung konnte nicht abgerufen werden. Prüfen Sie Ihre Netzwerkverbindung."
+  },
+  "errorRateLimit": {
+    "message": "Google begrenzt vorübergehend die Anfragen. Bitte versuchen Sie es gleich noch einmal."
+  },
+  "errorReload": {
+    "message": "Die Erweiterung wurde aktualisiert. Bitte laden Sie diese Seite neu."
+  },
+  "errorEmpty": {
+    "message": "Geben Sie Text zum Übersetzen ein oder fügen Sie ihn ein."
+  },
+  "listen": {
+    "message": "Anhören"
+  },
+  "stop": {
+    "message": "Stopp"
+  },
+  "copy": {
+    "message": "Kopieren"
+  },
+  "copied": {
+    "message": "Kopiert"
+  },
+  "close": {
+    "message": "Schließen"
+  },
+  "inputPlaceholder": {
+    "message": "Text hier eingeben oder einfügen…"
+  },
+  "targetLabel": {
+    "message": "Übersetzen in:"
+  },
+  "pageNotTranslatable": {
+    "message": "Diese Seite kann nicht übersetzt werden."
+  },
+  "openBubble": {
+    "message": "Auswahl übersetzen"
+  },
+  "fromLang": {
+    "message": "Übersetzt aus: $LANG$",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "progress": {
+    "message": "Wird übersetzt… $DONE$/$TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "charCount": {
+    "message": "$COUNT$ Zeichen",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1200"
+      }
+    }
+  },
+  "analyticsSection": {
+    "message": "Datenschutz"
+  },
+  "analyticsLabel": {
+    "message": "Anonyme Nutzungsstatistiken senden"
+  },
+  "analyticsTip": {
+    "message": "Hilft, die Erweiterung zu verbessern. Über Google Analytics werden nur anonyme Zählwerte gesendet (z. B. genutzte Funktionen, Sprachen, Textlängenbereich) – niemals der übersetzte Text, die Übersetzungen oder die besuchten Seiten."
+  }
+}

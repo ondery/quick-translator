@@ -1,0 +1,176 @@
+{
+  "extName": {
+    "message": "المترجم السريع",
+    "description": "Extension name (max 75 chars)"
+  },
+  "extDescription": {
+    "message": "ترجم النص المحدد مباشرةً داخل الصفحة، حتى المقاطع الطويلة. يستخدم ترجمة Google.",
+    "description": "Store/manifest description (max 132 chars)"
+  },
+  "actionTitle": {
+    "message": "المترجم السريع\n\nانقر للترجمة!\nانقر بزر الماوس الأيمن لعرض الخيارات."
+  },
+  "translate": {
+    "message": "ترجمة"
+  },
+  "menuTranslateSelection": {
+    "message": "ترجمة النص المحدد"
+  },
+  "menuTranslatePage": {
+    "message": "ترجمة هذه الصفحة"
+  },
+  "translatePageLink": {
+    "message": "ترجمة هذه الصفحة"
+  },
+  "openInTranslate": {
+    "message": "فتح في ترجمة Google"
+  },
+  "turnOffPopup": {
+    "message": "إيقاف النافذة المنبثقة"
+  },
+  "popupTurnedOff": {
+    "message": "تم إيقاف النافذة المنبثقة. يمكنك تفعيلها مجددًا من الخيارات."
+  },
+  "options": {
+    "message": "خيارات الإضافة"
+  },
+  "optionsPageTitle": {
+    "message": "خيارات المترجم السريع"
+  },
+  "optionsHeading": {
+    "message": "خيارات الإضافة"
+  },
+  "primaryLang": {
+    "message": "لغتي الأساسية:"
+  },
+  "popupSection": {
+    "message": "الترجمة في نافذة منبثقة:"
+  },
+  "whenSelect": {
+    "message": "عند تحديد كلمة أو عبارة:"
+  },
+  "modeIcon": {
+    "message": "عرض رمز يمكنني النقر عليه لفتح النافذة المنبثقة."
+  },
+  "modeImmediate": {
+    "message": "عرض النافذة المنبثقة فورًا."
+  },
+  "modeNone": {
+    "message": "عدم عرض رمز أو نافذة منبثقة."
+  },
+  "modePopupTip": {
+    "message": "يُرسَل النص المحدد إلى خوادم الترجمة من Google لترجمته."
+  },
+  "modeNoneTip": {
+    "message": "لا يزال بإمكانك ترجمة النص المحدد باستخدام رمز الإضافة في شريط الأدوات أو قائمة النقر بزر الماوس الأيمن."
+  },
+  "alwaysShowIcon": {
+    "message": "عرض الرمز حتى إذا كانت الصفحة بلغتي بالفعل."
+  },
+  "uiLangLabel": {
+    "message": "لغة الواجهة:"
+  },
+  "uiLangAuto": {
+    "message": "مثل لغة المتصفح"
+  },
+  "save": {
+    "message": "حفظ"
+  },
+  "reset": {
+    "message": "إعادة تعيين"
+  },
+  "saved": {
+    "message": "تم حفظ الخيارات."
+  },
+  "resetDone": {
+    "message": "تمت إعادة الخيارات إلى الإعدادات الافتراضية."
+  },
+  "homepage": {
+    "message": "الصفحة الرئيسية لترجمة Google"
+  },
+  "privacy": {
+    "message": "الخصوصية"
+  },
+  "translating": {
+    "message": "جارٍ الترجمة…"
+  },
+  "errorFetch": {
+    "message": "تعذّر الحصول على الترجمة. تحقق من اتصالك بالشبكة."
+  },
+  "errorRateLimit": {
+    "message": "تحدّ Google من الطلبات مؤقتًا. يُرجى المحاولة مرة أخرى بعد قليل."
+  },
+  "errorReload": {
+    "message": "تم تحديث الإضافة. يُرجى إعادة تحميل هذه الصفحة."
+  },
+  "errorEmpty": {
+    "message": "اكتب نصًا أو الصقه لترجمته."
+  },
+  "listen": {
+    "message": "استماع"
+  },
+  "stop": {
+    "message": "إيقاف"
+  },
+  "copy": {
+    "message": "نسخ"
+  },
+  "copied": {
+    "message": "تم النسخ"
+  },
+  "close": {
+    "message": "إغلاق"
+  },
+  "inputPlaceholder": {
+    "message": "اكتب النص هنا أو الصقه…"
+  },
+  "targetLabel": {
+    "message": "الترجمة إلى:"
+  },
+  "pageNotTranslatable": {
+    "message": "لا يمكن ترجمة هذه الصفحة."
+  },
+  "openBubble": {
+    "message": "ترجمة النص المحدد"
+  },
+  "fromLang": {
+    "message": "مترجم من: $LANG$",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "progress": {
+    "message": "جارٍ الترجمة… $DONE$/$TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "charCount": {
+    "message": "عدد الأحرف: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "1200"
+      }
+    }
+  },
+  "analyticsSection": {
+    "message": "الخصوصية"
+  },
+  "analyticsLabel": {
+    "message": "إرسال إحصاءات استخدام مجهولة الهوية"
+  },
+  "analyticsTip": {
+    "message": "يساعد على تحسين الإضافة. تُرسَل عبر Google Analytics إحصاءات مجهولة الهوية فقط (مثل الميزات المستخدمة واللغات ونطاق طول النص)، ولا يُرسَل أبدًا النص الذي تترجمه أو الترجمات أو الصفحات التي تزورها."
+  }
+}

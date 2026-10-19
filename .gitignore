@@ -1,0 +1,44 @@
+# ===== Standard ignores =====
+# dependencies / build output
+node_modules/
+.next/
+dist/
+build/
+out/
+release/
+coverage/
+*.tsbuildinfo
+
+# logs
+*.log
+
+# environment / secrets
+.env
+.env.*
+!.env.example
+!*.example
+*.bak*
+*.pem
+*.key
+*.dump
+
+# archives
+*.zip
+*.tar
+
+# assistant / local tooling config
+.claude/
+.codex/
+.gemini/
+.agents/
+AGENTS.md
+CLAUDE.md
+.github/copilot-instructions.md
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+# local analytics credentials (copy lib/analytics-config.example.js)
+lib/analytics-config.js
